@@ -1,0 +1,29 @@
+.header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 20px 0;
+    color:palegreen;
+}
+.header .inner{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.header .inner a{
+    
+}
+
+.header ul{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.header ul li.active{
+    color: pink;
+    
+}
